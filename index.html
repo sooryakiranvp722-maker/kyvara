@@ -356,7 +356,7 @@ async function init(){
   let settingsRaw = await safeGet('settings', true);
 
   if(!settingsRaw){
-    SETTINGS = { whatsapp:'919778724690', currency:'\u20b9', shipping:65, adminPassword:'x-admin', tagline:'Cast in silver, set with stone. Each piece ordered directly, no middleman, no markup theatre.' };
+    SETTINGS = { whatsapp:'919778724694', currency:'\u20b9', shipping:65, adminPassword:'kiranvp@159', tagline:'Cast in silver, set with stone. Each piece ordered directly, no middleman, no markup theatre.' };
     await safeSet('settings', JSON.stringify(SETTINGS), true);
   } else {
     SETTINGS = JSON.parse(settingsRaw);
